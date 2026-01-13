@@ -9,7 +9,6 @@ import streamlit as st
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
@@ -82,4 +81,5 @@ st.plotly_chart(fig4, use_container_width=True)
 st.markdown('---')
 st.markdown('**Note**: This dashboard provides basic technical analysis of major tech stocks using Python and Streamlit ')
     
+
 
